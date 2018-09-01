@@ -20,7 +20,7 @@ class Strategy:
         leftovers[val_of_secret_card] += 1
 
         max_safe_score_for_player = 21 - player_score
-        if max_safe_score_for_player > 10:
+        if max_safe_score_for_player >= 10:
             max_safe_score_for_player = 10
         num_of_safe_cards = 0
 
